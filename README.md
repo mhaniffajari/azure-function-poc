@@ -32,11 +32,14 @@ dotnet add package System.Data.SqlClient
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "DB_CONNECTION_STRING": "Server=tcp:servername.database.windows.net,1433;Database=databasename;User ID=username;Password=password;Encrypt=True;",
-    "BLOB_CONNECTION_STRING": "blobconnectionstring",
-    "BLOB_CONTAINER_NAME": "containername"
+    "WEBSITE_SITE_NAME": "pocfunction-local",
+    "SqlConnectionString": "Server=Server;Database=Database;Integrated Security=true;Encrypt=false;TrustServerCertificate=true;",
+    "CPI_ENDPOINT": "CPI_ENDPOINT",
+    "CPI_USERNAME": "CPI_CLIENT_ID",
+    "CPI_PASSWORD": "CPI_SECRET"
   }
 }
+
 ```
 
 
