@@ -5,8 +5,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.24.0" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Sql" Version="3.1.376" />
+	  <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+	  <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.5.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
   </ItemGroup>
   <ItemGroup>
